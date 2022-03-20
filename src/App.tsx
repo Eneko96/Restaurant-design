@@ -7,6 +7,8 @@ import Chef from './components/Chef/Chef'
 import Intro from './container/Intro/Intro'
 import Laurels from './container/Laurels/Laurels'
 import Gallery from './container/Gallery/Gallery'
+import FindUs from './container/FindUs/FindUs'
+import Footer from './container/Footer/Footer'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
       <Intro />
       <Laurels />
       <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   )
 
