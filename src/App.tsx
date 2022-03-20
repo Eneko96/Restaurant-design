@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs/AboutUs'
 import SpecialMenu from './components/SpecialMenu/SpecialMenu'
 import Chef from './components/Chef/Chef'
 import Intro from './container/Intro/Intro'
+import Laurels from './container/Laurels/Laurels'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <SpecialMenu />
       <Chef />
       <Intro />
+      <Laurels />
     </div>
   )
 

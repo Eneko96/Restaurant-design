@@ -8,7 +8,7 @@ export default function SpecialMenu() {
     <div className="app__specialMenu flex__center section__padding" id='menu'>
       <div className="app__specialMenu-title">
         <SubHeading title='Menu thats fits your palette' />
-        <h1 className="headText__cormorant">Today's Special</h1>
+        <h1 className="headtext__cormorant">Today's Special</h1>
       </div>
 
       <div className="app__specialMenu-menu">
