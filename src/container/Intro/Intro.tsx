@@ -6,7 +6,7 @@ import { meal } from '../../constants'
 
 export default function Intro() {
   const [playVideo, setPlayVideo] = useState(false)
-  const vidRef = useRef()
+  const vidRef = useRef<HTMLVideoElement>(null)
 
   const handleVideo = () => {
     setPlayVideo((prev:boolean) => !prev)
@@ -20,7 +20,6 @@ export default function Intro() {
     <div className='app__video'>
       <video
         src={meal}
-        type="video/mp4"
         loop
         muted
         controls={false}
