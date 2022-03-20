@@ -4,7 +4,7 @@
 
 .app__aboutus-overlay {
   position: absolute;
-  inset: 0; /* absolute position, correspond top and bottom position */
+  inset: 1; /* absolute position, correspond top and bottom position */
 }
 
 .app__aboutus-overlay img {
